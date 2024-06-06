@@ -1,0 +1,80 @@
+.header{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 60px;
+}
+.header .logo{
+    text-decoration: none;
+    font-size: 26px;
+    color: gold;
+    font-weight: bold;
+    font-style: oblique;
+}
+.searchForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.searchForm .inp{
+    display: flex;
+    align-items: center;
+}
+.searchForm input{
+    background-color: black;
+    border: 1px solid gainsboro;
+    border-right: none;
+    color: white;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 40px;
+    width: 600px;
+    padding: 0 8px;
+    outline: none;
+}
+.searchForm .searchIcon{
+    background-color: black;
+    border: 1px solid gainsboro;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchForm .searchResults{
+    width: 100%;
+    max-height: 70vh;
+    gap: 16px;
+    background-color: rgb(57, 57, 57);
+    overflow-y: auto;
+    z-index: 100;
+    position: absolute;
+    width: 60%;
+    top: 80px;
+}
+.searchForm .searchResults .searchResult{
+    height: 100px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+}
+.searchResult:hover{
+    background-color: rgb(82, 82, 82);
+
+}
+.searchResult img{
+    height: 100%;
+    width: 60px;
+    margin-right: 16px;
+}
+.login{
+    margin-left: 10px;
+}

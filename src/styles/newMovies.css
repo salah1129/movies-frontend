@@ -1,0 +1,49 @@
+.hero .newMovies {
+    min-width: 400px;
+    border-radius: 4px;
+    color: black;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: scroll;
+}
+.hero .newMovies h3{
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero .newMovies div{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(57, 57, 57);
+    padding: 10px;
+    border-radius: 5px;
+}
+.hero .newMovies div img{
+    width: 80px;
+    height: 100%;
+    cursor: pointer;
+}
+.hero .newMovies .description{
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+.hero .newMovies .description h4{
+    color: gold;
+    font-weight: bold;
+}
+.hero .newMovies::-webkit-scrollbar {
+    width: 2px;
+}
+.hero .newMovies::-webkit-scrollbar-thumb {
+    background-color: gold; 
+    border-radius: 2px; 
+}
+.hero .newMovies::-webkit-scrollbar-thumb:hover{ 
+    background-color: #555; 
+}

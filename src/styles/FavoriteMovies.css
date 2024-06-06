@@ -1,0 +1,25 @@
+.fav{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.favorite-movies-list{
+    padding: 30px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.favorite-movie{
+    height: 400px;
+    width: 300px;
+}
+.favorite-movie img{
+    height: 90%;
+    width: 100%;
+}
+.favorite-movie h3{
+    background-color: gainsboro;
+    padding: 10px;
+}

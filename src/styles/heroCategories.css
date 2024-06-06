@@ -1,0 +1,33 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+.categories:hover > a:not(:hover){
+    filter: blur(6px);
+    transform: scale(0.9, 0.9);
+}
+.categories a{
+    text-decoration: none;
+}
+.categories a h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.categories div {
+    background-color: rgb(30, 30, 30);
+    width: 300px; 
+    height: 200px; 
+    padding: 8px 0 0 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.categories div:hover{
+    transform: scale(1.05);
+}

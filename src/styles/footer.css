@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0 10px 0;
+}
+.socialMedia{
+    display: flex;
+}
+.footer button{
+    width: 200px;
+    background-color: gold;
+    color: black;
+}
+.footer button:hover{
+    background-color: goldenrod;
+}
+.footer .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    width: 70%;
+}
+.footer .links a{
+    text-decoration: none;
+}
+.footer .links a:hover{
+    border-bottom: 1px white solid;
+}

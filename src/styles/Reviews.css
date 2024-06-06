@@ -1,0 +1,60 @@
+.reviewSection{
+    display: flex;
+    gap: 20px;
+    height: 70vh;
+    padding: 30px 60px;
+}
+.reviewForm{
+    width: 60%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.reviewForm input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+    outline: none;
+}
+.reviewForm textarea {
+    height: 160px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+    outline: none;
+}
+.reviewForm button{
+    width: 160px;
+}
+.reviews{
+    width: 40%;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+    overflow-y: scroll;
+}
+.reviews::-webkit-scrollbar {
+    width: 2px; 
+}
+
+.reviews::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+.reviews::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.reviews .review {
+    background-color: gainsboro;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.review h3,
+.review p{
+    color: black;
+}

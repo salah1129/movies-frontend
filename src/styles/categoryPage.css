@@ -1,0 +1,35 @@
+.categoryPage{
+    background-color: black;
+    min-height: 100vh;
+    padding: 0 60px 60px 60px;
+    user-select: none;
+    min-height: 100vh;
+}
+.categoryPage .movies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.movieCard{
+    height: 350px;
+    width: 250px;
+    background-color: aqua;
+}
+.movieCard img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+.movieCard .movieName{
+    background-color: gainsboro;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+

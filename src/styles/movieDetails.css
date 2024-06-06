@@ -1,0 +1,88 @@
+.movieDetails{
+    background-color: black;
+}
+.movieInfo{
+    padding: 0 60px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px 60px;
+}
+.movieInfo .header{
+    height: 100px;
+    display: flex;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+
+}
+.movieInfo .header div{
+    width: 50%;
+    height: 100%;
+    padding: 30px 0 0 0;
+}
+.header div .movieName{
+    font-size: 30px;
+}
+.movieDetails .trailer{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+
+}
+
+.movieDetails .left iframe{
+    height: 450px;
+    width: 900px;
+}
+.movieDetails .right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.movieDetails .right img{
+    height: 450px;
+}
+.movieDetails .right .heartIcon{
+    position: absolute;
+    font-size: 26px;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.movieDetails .right .heartIcon:hover{
+    transform: scale(1.1);
+}
+.movieInfo .details{
+    width: 900px;
+}
+.movieInfo .details .top{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+.movieInfo .details .top div{
+    width: 120px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieInfo .details p{
+    height: 60px;
+    margin-top: 10px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.movieDetails .details span{
+    color: #5072A7;
+}
+
+.similarMovies{
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+}
